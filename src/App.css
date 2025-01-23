@@ -1,0 +1,68 @@
+body {
+  background-color: #2b7a78; /* Dark Teal */
+  color: #e4e3d3; /* Ash Green */
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.BMICalculator {
+  background-color: #88bdbc; /* Sage Green */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 300px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+label {
+  display: block;
+  margin: 15px 0 5px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #d4e157; /* Light Green */
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #2b7a78; /* Dark Teal */
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #000000; /* Black for hover */
+  color: #ffffff;
+}
+
+h3 {
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #ff6b6b; /* Red for error */
+}
